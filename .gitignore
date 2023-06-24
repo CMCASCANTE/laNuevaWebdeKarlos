@@ -2,3 +2,5 @@
 node_modules
 # ignorar cache de parcel
 .parcel-cache
+# ignorar builds de pruebas
+build
