@@ -1,2 +1,4 @@
+# ignorar carpeta de dependencias de react
 node_modules
+# ignorar cache de parcel
 .parcel-cache
