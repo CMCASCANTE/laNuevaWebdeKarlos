@@ -1,5 +1,7 @@
+// Importaciones
 import React from 'react';
 
+// Componente para el Home
 function Home() {
   return (
     <div id="home">
@@ -8,4 +10,5 @@ function Home() {
   );
 }
 
+// Exportación del componente
 export default Home;

@@ -1,5 +1,7 @@
+// Importaciones
 import React from 'react';
 
+// Componente para el Pie de página
 function Footer() {
   return (
     <div id="footer">
@@ -8,4 +10,5 @@ function Footer() {
   );
 }
 
+// Exportación del componente
 export default Footer;

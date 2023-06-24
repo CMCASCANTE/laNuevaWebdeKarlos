@@ -1,5 +1,7 @@
+// Importaciones
 import React from 'react';
 
+// Componete para el apartado principal de la web
 function AboutMe() {
   return (
     <div id="aboutme">
@@ -8,4 +10,5 @@ function AboutMe() {
   );
 }
 
+// Exportación del componente
 export default AboutMe;

@@ -1,5 +1,7 @@
+// Importaciones
 import React from 'react';
 
+// Componente para el head de la web
 function Header() {
   return (
     <div id="header">
@@ -8,4 +10,5 @@ function Header() {
   );
 }
 
+// Exportación del componente
 export default Header;
