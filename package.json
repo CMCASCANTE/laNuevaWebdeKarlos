@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Personal Site",
   "main": "index.js",
-  "repository": "https://github.com/CMCASCANTE/laWebdeKarlos",
+  "repository": "https://github.com/CMCASCANTE/laWebdeKarlos.git",
   "author": "Karlos",
   "license": "MIT",
   "eslintConfig": {
