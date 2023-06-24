@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAGA;;;;;AAKA","sources":["src/App/App.css"],"sourcesContent":["* {\r\n    margin: 0;\r\n}\r\n#header {\r\n    background-color: aqua;\r\n    height: 10em;\r\n}\r\n\r\n#footer {\r\n    background-color: blueviolet;\r\n    height: 5em;\r\n}"],"names":[],"version":3,"file":"index.fd7474a0.css.map","sourceRoot":"/__parcel_source_root/"}
