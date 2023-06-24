@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+#header {
+    background-color: aqua;
+    height: 10em;
+}
+
+#footer {
+    background-color: blueviolet;
+    height: 5em;
+}
