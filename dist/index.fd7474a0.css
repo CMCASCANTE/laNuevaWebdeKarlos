@@ -1,15 +1,36 @@
+@font-face {
+  font-family: Urbanist;
+  src: url("Urbanist-Regular.8c684e42.ttf");
+}
+
+@font-face {
+  font-family: Gotu;
+  src: url("Gotu-Regular.11e87d3f.ttf");
+}
+
 * {
   margin: 0;
 }
 
 #header {
-  background-color: #0ff;
-  height: 10em;
+  text-align: center;
+  padding: 2em;
+  font-family: Gotu, sans-serif;
 }
 
 #footer {
-  background-color: #8a2be2;
-  height: 5em;
+  text-align: end;
+  padding: 1em;
+  font-family: Urbanist, sans-serif;
+}
+
+#nav {
+  padding: 1em;
+  font-family: Urbanist, sans-serif;
+}
+
+#home, #aboutme, #contact {
+  font-family: Gotu;
 }
 
 :root, [data-bs-theme="light"] {

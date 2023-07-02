@@ -1,12 +1,46 @@
-* {
-    margin: 0;
+/**
+* Importación de fuenes
+**/
+@font-face {
+    font-family: Urbanist;
+    src: url("../Fonts/Urbanist/Urbanist-Regular.ttf");
 }
-#header {
-    background-color: aqua;
-    height: 10em;
+@font-face {
+    font-family: Gotu;
+    src: url("../Fonts/Gotu/Gotu-Regular.ttf");
 }
 
-#footer {
-    background-color: blueviolet;
-    height: 5em;
+/**
+* Estilos generales
+**/
+* {
+    margin: 0;       
+}
+#header {    
+    padding: 2em;
+    text-align: center;
+    font-family: Gotu, sans-serif;    
+}
+
+#footer {    
+    padding: 1em;
+    text-align: end;   
+    font-family: Urbanist, sans-serif; 
+}
+
+#nav {    
+    padding: 1em;
+    font-family: Urbanist, sans-serif;     
+}
+
+#home {
+    font-family: Gotu;
+}
+
+#aboutme {
+    font-family: Gotu;
+}
+
+#contact {
+    font-family: Gotu;
 }
