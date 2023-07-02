@@ -1,10 +1,11 @@
 // Importaciones
 import React from 'react';
+import './Game.css';
 
 // Componente para el Home
 function Game() {
   return (
-    <div id="home">
+    <div id="game">
       <h1>Game</h1>
     </div>
   );

@@ -1,3 +1,10 @@
+#game {
+  background-color: #5f9ea0;
+  width: 80%;
+  margin: auto;
+  font-family: Gotu;
+}
+
 @font-face {
   font-family: Urbanist;
   src: url("Urbanist-Regular.8c684e42.ttf");
@@ -30,13 +37,6 @@
 }
 
 #home, #aboutme, #contact {
-  font-family: Gotu;
-}
-
-#game {
-  background-color: #5f9ea0;
-  width: 80%;
-  margin: auto;
   font-family: Gotu;
 }
 
@@ -13375,4 +13375,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=index.fd7474a0.css.map */
+/*# sourceMappingURL=index.f8f82c2e.css.map */
