@@ -1,8 +1,15 @@
 #game {
   background-color: #5f9ea0;
+  background-image: url("stars-bg.80d8bce3.jpg");
+  background-repeat: repeat;
   width: 80%;
+  height: 30em;
   margin: auto;
   font-family: Gotu;
+}
+
+#game .nave {
+  color: #f0f8ff;
 }
 
 @font-face {

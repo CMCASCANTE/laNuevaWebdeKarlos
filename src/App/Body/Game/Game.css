@@ -1,7 +1,30 @@
 
 #game {
     font-family: Gotu;
+    background-image: url('../../../../assets/images/stars-bg.jpg');
+    background-repeat: repeat;
     background-color: cadetblue;
     width: 80%;
+    height: 30em;
     margin: auto;
+}
+
+#game .nave {
+    color: aliceblue;
+}
+
+#game .right {
+
+}
+
+#game .left {
+    
+}
+
+#game .up {
+    
+}
+
+#game .down {
+    
 }

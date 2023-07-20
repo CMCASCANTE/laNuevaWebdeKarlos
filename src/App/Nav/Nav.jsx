@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AboutMe from '../Body/AboutMe/AboutMe';
 import Game from '../Body/Game/Game';
+import OpenWebinar from '../Body/OpenWebinars/OpenWebinar';
 import Contact from '../Body/Contact/Contact';
 import Home from '../Body/Home/Home';
 import NavStyle from './NavStyle';
@@ -17,6 +18,7 @@ function Nav() {
           <Route index element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/app" element={<Game />} />
+          <Route path="/openWebinar" element={<OpenWebinar />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
