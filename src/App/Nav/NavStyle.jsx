@@ -1,52 +1,30 @@
 // Importaciones
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-// Importaciones de Bootstrap
-// import Button from 'react-bootstrap/Button';
-// Importación de iconos de FontAwesome
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faEnvelope, faAddressCard, faHouse, faGamepad,
-} from '@fortawesome/free-solid-svg-icons';
 
 // Componente menu del navegador
 function NavStyle() {
   return (
     <>
-      <div id="nav" className="row justify-content-center">
-        <div className="col-2 text-center">
+      <div id="navegador" className="row justify-content-center">
+        <div className="col-1 text-center">
           <Link to="/">
-            <FontAwesomeIcon icon={faHouse} />
-            {' '}
-            Home
+            <button type="button">Home</button>
           </Link>
         </div>
-        <div className="col-2 text-center">
+        <div className="col-1 text-center">
           <Link to="/aboutme">
-            <FontAwesomeIcon icon={faAddressCard} />
-            {' '}
-            AboutMe
+            <button type="button">AboutMe</button>
           </Link>
         </div>
-        <div className="col-2 text-center">
+        <div className="col-1 text-center">
           <Link to="/app">
-            <FontAwesomeIcon icon={faGamepad} />
-            {' '}
-            App
+            <button type="button">App</button>
           </Link>
         </div>
-        <div className="col-2 text-center">
-          <Link to="/openWebinar">
-            <FontAwesomeIcon icon={faGamepad} />
-            {' '}
-            OpenWebinar
-          </Link>
-        </div>
-        <div className="col-2 text-center">
+        <div className="col-1 text-center">
           <Link to="/contact">
-            <FontAwesomeIcon icon={faEnvelope} />
-            {' '}
-            Contact
+            <button type="button">Contact</button>
           </Link>
         </div>
       </div>

@@ -14,24 +14,25 @@
 * Estilos generales
 **/
 * {
-    margin: 0;       
-}
-#header {    
-    padding: 2em;
-    text-align: center;
-    font-family: Gotu, sans-serif;    
+    margin: 0; 
+    padding: 0;      
+    background-color: #090d00;
 }
 
-#footer {    
-    padding: 1em;
-    text-align: end;   
-    font-family: Urbanist, sans-serif; 
-}
 
-#nav {    
-    padding: 1em;
-    font-family: Urbanist, sans-serif;     
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #home {
     font-family: Gotu;

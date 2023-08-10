@@ -1,0 +1,52 @@
+/*
+*   CSS DE NAVEGADOR
+*/ 
+#navegador {    
+    margin: 0 0 1em 0;    
+    text-align: center;    
+    padding-bottom: 0.3em;
+    border-bottom: 4px double rgba(255,255,255,.25);    
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 32px;
+    font-family: Urbanist, sans-serif;     
+}
+#navegador button {
+    padding: .25em 1.25em;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-variant: small-caps;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+#navegador button:hover {
+    
+    animation: hoverButton 0.3s linear ;
+    animation-fill-mode: forwards;
+}
+/** animacion de los botones del navegador **/
+@keyframes hoverButton {
+    0%{
+        color: white;
+        transform: scale(1) rotate(0deg);
+        
+    }
+    33%{
+        color: white;
+        transform: scale(1.2) rotate(10deg);
+        
+    }
+    66%{
+        color: #EE580A;
+        transform: scale(1.4) rotate(-10deg);
+        
+    }
+    100%{
+        color: #EE580A;
+        transform: scale(1) rotate(0deg);
+        
+    }
+    
+}
+

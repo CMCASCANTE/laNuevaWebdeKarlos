@@ -1,11 +1,12 @@
 // Importaciones
 import React from 'react';
+import './header.css';
 
 // Componente para el head de la web
 function Header() {
   return (
     <div id="header">
-      <p className="display-2">La Web de Karlos</p>
+      <h1>La Web de Karlos</h1>
     </div>
   );
 }
