@@ -59366,7 +59366,7 @@ function NavStyle() {
                 className: "row justify-content-center",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-1 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -59388,7 +59388,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-1 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/aboutme",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -59410,7 +59410,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-1 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/app",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -59432,7 +59432,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-1 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/contact",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
