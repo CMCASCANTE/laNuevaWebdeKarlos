@@ -1,0 +1,10 @@
+RewriteEngine on
+
+# opciones necesarias para que react router cargue correctamente al recargar ** añadir archivo en raiz de dominio **
+# no reescribir archivos o directorios
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# reescribe todo lo demas al index
+RewriteRule ^ index.html [L]

@@ -9,12 +9,12 @@ function NavStyle() {
       <div id="navegador" className="row justify-content-center">
         <div className="col-xxl-1 col-md-2 col-3 text-center">
           <Link to="/">
-            <button type="button">Home</button>
+            <button type="button">Inicio</button>
           </Link>
         </div>
         <div className="col-xxl-1 col-md-2 col-3 text-center">
           <Link to="/aboutme">
-            <button type="button">AboutMe</button>
+            <button type="button">Conóceme</button>
           </Link>
         </div>
         <div className="col-xxl-1 col-md-2 col-3 text-center">
@@ -24,7 +24,7 @@ function NavStyle() {
         </div>
         <div className="col-xxl-1 col-md-2 col-3 text-center">
           <Link to="/contact">
-            <button type="button">Contact</button>
+            <button type="button">Contacto</button>
           </Link>
         </div>
       </div>

@@ -19,7 +19,7 @@
 }
 body {
     background-color: #090d00 !important;
-    font-family: Gotu;
+    font-family: Gotu !important;
     height: 100%;
 }
 
@@ -44,6 +44,5 @@ body {
 /******* contact ****/
 #contact {
     text-align: center;
-    background-color: rgb(122, 107, 7);
-    height: 30em;
+    background-color: rgb(122, 107, 7);    
 }
