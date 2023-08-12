@@ -46,7 +46,6 @@
   text-align: center;
   color: #f0f8ff;
   text-shadow: 0 0 3px #eee, 5px 5px 2px teal, -5px -2px 2px #000, -5px -2px 2px red;
-  width: 30%;
   font-size: 1.5em;
   font-weight: 400;
   animation: 4s ease-in-out infinite alternate shift;
@@ -91,7 +90,7 @@
 
 @media screen and (width <= 720px) {
   #pie h4 {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -169,6 +168,21 @@
   margin-bottom: 2em;
 }
 
+@media (width <= 650px) {
+  #contact, #contact .errorSpan, #contact .doneSpan, #contact .bienvenidaSpan {
+    font-size: medium;
+  }
+
+  #contact input {
+    width: 70%;
+  }
+
+  #contact textarea {
+    width: 80%;
+    height: 10em;
+  }
+}
+
 #navegador {
   text-align: center;
   border-bottom: 4px double #ffffff40;
@@ -210,6 +224,12 @@
   100% {
     color: #ee580a;
     transform: scale(1)rotate(0);
+  }
+}
+
+@media (width <= 650px) {
+  #navegador .navButonDiv, #navegador .navButonDiv button {
+    padding: 0;
   }
 }
 

@@ -27894,8 +27894,22 @@ var _footerCss = require("./footer.css");
 function Footer() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "footer",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-            children: "Coming soon..."
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "row justify-content-end",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "col-auto",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                    children: "Coming soon..."
+                }, void 0, false, {
+                    fileName: "src/App/Foot/Footer.jsx",
+                    lineNumber: 11,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
+                fileName: "src/App/Foot/Footer.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "src/App/Foot/Footer.jsx",
             lineNumber: 9,
@@ -64648,7 +64662,7 @@ function NavStyle() {
                 className: "row justify-content-center",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-xxl-1 col-md-2 col-3 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center navButonDiv",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -64670,7 +64684,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-xxl-1 col-md-2 col-3 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center navButonDiv",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/aboutme",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -64692,7 +64706,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-xxl-1 col-md-2 col-3 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center navButonDiv",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/app",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -64714,7 +64728,7 @@ function NavStyle() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "col-xxl-1 col-md-2 col-3 text-center",
+                        className: "col-xxl-1 col-md-2 col-3 text-center navButonDiv",
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                             to: "/contact",
                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {

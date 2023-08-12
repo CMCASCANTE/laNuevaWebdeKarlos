@@ -57,3 +57,29 @@
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+
+
+
+/*** media screen para moviles ***/
+@media (max-width: 650px) {
+    #contact {        
+        font-size: medium;
+    }
+    #contact .errorSpan {
+        font-size: medium;            
+    }    
+    #contact .doneSpan {
+        font-size: medium;            
+    }    
+    #contact .bienvenidaSpan {
+        font-size: medium;            
+    }
+    #contact input {
+        width: 70%;
+    }
+    #contact textarea {
+        width: 80%;
+        height: 10em;    
+    }
+}

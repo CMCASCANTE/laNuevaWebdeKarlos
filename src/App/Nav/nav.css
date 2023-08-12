@@ -50,3 +50,12 @@
     
 }
 
+/*** media screen para moviles ***/
+@media (max-width: 650px) {
+    #navegador .navButonDiv {
+        padding: 0;
+    }
+    #navegador .navButonDiv button {
+        padding: 0;
+    }
+}
